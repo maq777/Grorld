@@ -1,0 +1,23 @@
+Grorld
+
+Description:
+Grorld is an application to automatically grind bonus resources in
+CivWorld. As soon as one of these bonus bubbles appear on the screen
+this application will automatically move the mouse to that location.
+Hence you can have the computer grab bonuses all night while you
+sleep...
+
+Usage:
+ - Use the command "./grorld" from the directory where you installed
+   it to start the application.
+ 
+Installation:
+ - Run "sudo apt-get install cmake libx11-dev libcv-dev libcvaux-dev
+   libhighgui-dev && cmake . && make" from the directory where the
+   source is located. Follow the instructions.
+
+Attention:
+ - Do NOT move the browser while playing
+ - Always have the browser window at front
+
+/ M. Stjärnås, July, 2011
