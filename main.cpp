@@ -43,6 +43,9 @@ along with Grorld.  If not, see <http://www.gnu.org/licenses/>.
  * 
  * @attention - Do NOT move the browser while playing
  * @attention - Always have the browser window at front
+ * 
+ * Official homepage:
+ * http://www.maqibooy.com/2011/07/grorld-civworld-bonus-resource-grinding.html
  */
 
 // C++ Standard Library headers
@@ -73,8 +76,6 @@ extern "C"
  * NOT to be part of current search image.
  */
 #define MATCHING_THRESHOLD 2.7
-
-/// @todo blog and insert http adress into code header...
 
 /**
  * @brief Grorld entry point

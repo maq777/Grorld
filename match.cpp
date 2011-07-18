@@ -106,7 +106,7 @@ Match::match(cv::Mat templ)
 	cv::Mat mres;
 	cv::matchTemplate(mat, templ, mres, CV_TM_SQDIFF_NORMED);
 
-	// Calculate the absolute score for the best location
+	// Retrieve the absolute score for the best location
 	double score;
 	cv::Point local_position;
 	cv::minMaxLoc(mres, &score, NULL, &local_position, NULL);

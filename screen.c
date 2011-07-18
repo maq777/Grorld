@@ -158,11 +158,13 @@ Screen_Initialize(const char *name)
 		if (XShmQueryVersion(display, &major, &minor, &pixmaps) == True)
 		{
 			fprintf(stdout, "MIT-SHM: %d.%d %s shared pixmaps\n", major, minor, (pixmaps==True) ? "with" : "without");
-		} else
+		}
+		else
 		{
 			return NULL;
 		}
-	} else
+	}
+	else
 	{
 		return NULL;
 	}
